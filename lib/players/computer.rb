@@ -1,4 +1,5 @@
 module Players
+  
   class Computer < Player
 
     def move(board)
@@ -22,4 +23,4 @@ module Players
         "8"
       end
 
-    end
+    
